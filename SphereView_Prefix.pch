@@ -1,0 +1,17 @@
+//
+// Prefix header for all source files of the 'SphereViewSample' target in the 'SphereViewSample' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+	// Util
+	#import <math.h>	
+
+	// Parfait
+	#import "PFRadian.h"
+	#import "PFPoint.h"
+	#import "PFMatrix.h"
+	#import "PFMatrixTransform.h"	
+#endif
